@@ -24,7 +24,6 @@ function TodoList() {
 
   const removeTodo = id => {
     const removeArr = [...todos].filter(todo => todo.id !== id)
-    console.log(...todos)
     setTodos(removeArr);
   }
 
